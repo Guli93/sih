@@ -1,0 +1,217 @@
+/**************GOOGLE FONTS******************/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&family=Bree+Serif&family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+
+/**************COLORS******************/
+:root{
+   
+    --first-color:#0C356A;
+    --h1-color: #279EFF;
+    --title-color: #40F8FF;
+    --container-color:#D5FFD0;
+    --body-color: #fbfbfe;
+    --text-color: #6d6a7c;
+    --body-font:'Poppins', sans-serif;
+    --big-font-size:2.8rem;
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --h3-font-size:1.125rem;
+    --normal-font-size:.948rem;
+    --small-font-size:.813rem;
+    --small-font-size:.75rem;
+
+} 
+/* font sizes for large Devices */
+@media screen and(min-width:968px){
+    
+    :root{
+        --big-font-size:4rem;
+        --h1-font-size:2.25rem;
+        --h2-font-size:1.5rem;
+        --h3-font-size:1.25rem;
+        --normal-font-size:1rem;
+        --small-font-size:.875rem;
+        --small-font-size:.813rem;
+    
+    } 
+}
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,h2{
+    /* color: white; */
+
+}
+/* NAVBAR STYLING STARTS FROM HERE */
+
+.navbar {
+    background-color: skyblue;
+    color: #fff;
+    padding: 1rem .5rem;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-brand:hover {
+    text-decoration: none;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 4rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  
+.response-box{
+
+    /* background-color: #0C134F; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    height: 30rem;
+    margin: 0 12rem;
+    padding: 18px;
+    text-align: center;
+    border-radius: 8px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 5rem;
+
+
+}
+.emotions{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.pr-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity: .7;
+}
+.progressBar{
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    margin: 20px;
+}
+
+.res-text{
+    margin-top: 40px;
+    color:rgb(6, 153, 131) ;
+    font-size: var(--big-font-size);
+}
+
+/* SENTIMENT STYLING STARTS FROM HERE */
+
+.sentiment-box{
+    width: 100%;
+    height: 100%;
+    /* background-color: #0C134F; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 3rem 2rem .5rem 2rem;
+    border-radius: 5px;
+
+}
+.chats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-chats{
+    margin-right: 30rem;
+}
+.right-chats{
+    margin-left: 30rem;
+}
+.chat1{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 15rem;
+    height: 100%;
+    padding: 10px;
+}
+.left-chats .chat1{
+    margin: 5rem 0;
+    background-color: #D4ADFC;
+}
+.right-chats .chat1{
+    float: right;
+    margin-top: 3rem;
+    background-color: #FFF07A;
+    
+}
+.text-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 12px;
+    border-radius: 7px;
+    background-color: rgb(0, 106, 255);
+    color: white;
+    margin: 10px;
+}
+textarea{
+    background:rgba(85, 83, 83, 0.339);
+    color: var(--text-color);
+    border-radius: 5px;
+    font-size: var(--normal-font-size);
+    padding: 7px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+   background-image: linear-gradient(to right top, #1d267d, #1a2274, #161f6b, #131b63, #10185a, #232164, #322a6d, #403477, #645097, #886db8, #ad8dd9, #d4adfc);
+  width: 100%;
+  height:100% ;
+} */
